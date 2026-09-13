@@ -12,6 +12,7 @@
  */
 
 #include "postgres.h"
+#include <arpa/inet.h>
 #include "fmgr.h"
 #include "executor/spi.h"
 #include "funcapi.h"
